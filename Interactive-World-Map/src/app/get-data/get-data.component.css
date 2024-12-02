@@ -1,0 +1,29 @@
+#detail {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Adjust shadow color */
+}
+
+h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #ccc;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+div {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+strong {
+  font-weight: bold;
+  color: #fff;
+}

@@ -1,0 +1,12 @@
+<div *ngIf="countryData" id="detail">
+  <h2>{{countryData.name | uppercase}}</h2>
+  <h3>Details</h3>
+  <div><strong>Name:</strong> {{ countryData.name }}</div>
+  <div><strong>Capital:</strong> {{ countryData.capital }}</div>
+  <div><strong>Region:</strong> {{ countryData.region }}</div>
+  <div><strong>Income:</strong> {{ countryData.income }}</div>
+  <div><strong>Longitude:</strong> {{ countryData.longitude }}</div>
+  <div><strong>Latitude:</strong> {{ countryData.latitude }}</div>
+</div>
+
+

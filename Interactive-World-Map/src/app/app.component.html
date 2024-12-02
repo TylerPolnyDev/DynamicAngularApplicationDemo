@@ -1,0 +1,19 @@
+<div>
+  <table  id="home">
+    <tbody>
+    <tr>
+      <th>Map</th>
+      <th>Info</th>
+    </tr>
+    <tr >
+      <td id="map">
+        <app-map-svg (click)="handleClick($event)"></app-map-svg>
+      </td>
+      <td>
+        <app-get-data [countryData]="countryData"></app-get-data>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<router-outlet></router-outlet>
